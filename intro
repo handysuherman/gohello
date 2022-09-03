@@ -1,0 +1,6 @@
+Sebelum ada Go Modules
+- Saat kita membuat aplikasi, biasanya kita akan menggunakan library atau dependency dari project lain.
+- Sebelum ada Go Modules, management untuk dependency sangat sulit dilakukan di Go-Lang
+- Biasanya kita akan mengcopy semua source code library atau dependency lain ke project kita, hail ini membuat project kita menjadi bengkak karena penuh dengan library orang lain.
+- Atau biasanya library orang lain akan kita save di GOPATH directory, namun hal ini akan sulit jika ternyata beberapa aplikasi butuh library yang sama dengan versi yang berbeda.
+
